@@ -1,14 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - yanpengt06
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - yanpengt06/invoice-manage-system
+  - yanpengt06/DialogueEIN
+  - yanpengt06/SA-paper-statistics
+  - yanpengt06/WASSA23
+  - yanpengt06/explore-chatGPT-in-Affective-Computing
+  - HIT-SCIR-SC/QiaoBan
+
