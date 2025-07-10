@@ -1,84 +1,78 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://yanpengt06.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://yanpengt06.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-07-07T09:20:14+00:00</updated><id>https://yanpengt06.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">a post with plotly.js</title><link href="https://yanpengt06.github.io/blog/2025/plotly/" rel="alternate" type="text/html" title="a post with plotly.js"/><published>2025-03-26T14:24:00+00:00</published><updated>2025-03-26T14:24:00+00:00</updated><id>https://yanpengt06.github.io/blog/2025/plotly</id><content type="html" xml:base="https://yanpengt06.github.io/blog/2025/plotly/"><![CDATA[<p>This is an example post with some <a href="https://plotly.com/javascript/">plotly</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">plotly
-</span><span class="sb">{
-  "data": [
-    {
-      "x": [1, 2, 3, 4],
-      "y": [10, 15, 13, 17],
-      "type": "scatter"
-    },
-    {
-      "x": [1, 2, 3, 4],
-      "y": [16, 5, 11, 9],
-      "type": "scatter"
-    }
-  ]
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-plotly">{
-  "data": [
-    {
-      "x": [1, 2, 3, 4],
-      "y": [10, 15, 13, 17],
-      "type": "scatter"
-    },
-    {
-      "x": [1, 2, 3, 4],
-      "y": [16, 5, 11, 9],
-      "type": "scatter"
-    }
-  ]
-}
-</code></pre> <p>Also another example chart.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">plotly
-</span><span class="sb">{
-  "data": [
-    {
-      "x": [1, 2, 3, 4],
-      "y": [10, 15, 13, 17],
-      "mode": "markers"
-    },
-    {
-      "x": [2, 3, 4, 5],
-      "y": [16, 5, 11, 9],
-      "mode": "lines"
-    },
-    {
-      "x": [1, 2, 3, 4],
-      "y": [12, 9, 15, 12],
-      "mode": "lines+markers"
-    }
-  ],
-  "layout": {
-    "title": {
-      "text": "Line and Scatter Plot"
-    }
-  }
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>This is how it looks like:</p> <pre><code class="language-plotly">{
-  "data": [
-    {
-      "x": [1, 2, 3, 4],
-      "y": [10, 15, 13, 17],
-      "mode": "markers"
-    },
-    {
-      "x": [2, 3, 4, 5],
-      "y": [16, 5, 11, 9],
-      "mode": "lines"
-    },
-    {
-      "x": [1, 2, 3, 4],
-      "y": [12, 9, 15, 12],
-      "mode": "lines+markers"
-    }
-  ],
-  "layout": {
-    "title": {
-      "text": "Line and Scatter Plot"
-    }
-  }
-}
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[this is what included plotly.js code could look like]]></summary></entry><entry><title type="html">a post with image galleries</title><link href="https://yanpengt06.github.io/blog/2024/photo-gallery/" rel="alternate" type="text/html" title="a post with image galleries"/><published>2024-12-04T01:59:00+00:00</published><updated>2024-12-04T01:59:00+00:00</updated><id>https://yanpengt06.github.io/blog/2024/photo-gallery</id><content type="html" xml:base="https://yanpengt06.github.io/blog/2024/photo-gallery/"><![CDATA[<p>The images in this post are all zoomable, arranged into different mini-galleries using different libraries.</p> <h2 id="lightbox2"><a href="https://lokeshdhakar.com/projects/lightbox2/">Lightbox2</a></h2> <p><a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"/></a> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"/></a> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"/></a></p> <hr/> <h2 id="photoswipe"><a href="https://photoswipe.com/">PhotoSwipe</a></h2> <div class="pswp-gallery pswp-gallery--single-column" id="gallery--getting-started"> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg" data-pswp-width="1669" data-pswp-height="2500" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg" alt=""/> </a> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/7/img-2500.jpg" data-pswp-width="1875" data-pswp-height="2500" data-cropped="true" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/7/img-200.jpg" alt=""/> </a> <a href="https://unsplash.com" data-pswp-src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg" data-pswp-width="2500" data-pswp-height="1666" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt=""/> </a> <div> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-2500.jpg" data-pswp-width="2500" data-pswp-height="1667" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-200.jpg" alt=""/> </a> </div> </div> <hr/> <h2 id="spotlight-js"><a href="https://nextapps-de.github.io/spotlight/">Spotlight JS</a></h2> <div class="spotlight-group"> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"/> </a> </div> <div class="spotlight-group"> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/4/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/4/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/5/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/5/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-200.jpg"/> </a> </div> <hr/> <h2 id="venobox"><a href="https://veno.es/venobox/">Venobox</a></h2> <p><a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"/></a> <a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"/></a> <a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"/></a></p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="images"/><summary type="html"><![CDATA[this is what included image galleries could look like]]></summary></entry><entry><title type="html">Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra</title><link href="https://yanpengt06.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/" rel="alternate" type="text/html" title="Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra"/><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>https://yanpengt06.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra</id><content type="html" xml:base="https://yanpengt06.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/"><![CDATA[<p>May 14, 2024 We’re introducing a series of updates across the Gemini family of models, including the new 1.5 Flash, our lightweight model for speed and efficiency, and Project Astra, our vision for the future of AI assistants. In December, we launched our first natively multimodal model Gemini 1.0 in three sizes: Ultra, Pro and Nano. Just a few months later we released 1.5 Pro, with enhanced performance and a breakthrough long context window of 1 million tokens.Developers and enterprise customers have been putting 1.5 Pro to use in incredible ways and finding its long context window, multimodal reasoning capabilities and impressive overall performance incredibly useful.We know from user feedback that some applications need lower latency and a lower cost to serve. This inspired us to keep innovating, so today, we’re introducing Gemini 1.5 Flash: a model that’s lighter-weight than 1.5 Pro, and designed to be fast and efficient to serve at scale.Both 1.5 Pro and 1.5 Flash are available in public preview with a 1 million token context window in Google AI Studio and Vertex AI. And now, 1.5 Pro is also available with a 2 million token context window via waitlist to developers using the API and to Google Cloud customers.We’re also introducing updates across the Gemini family of models, announcing our next generation of open models, Gemma 2, and sharing progress on the future of AI assistants, with Project Astra.Context lengths of leading foundation models compared with Gemini 1.5’s 2 million token capability1.5 Flash is the newest addition to the Gemini model family and the fastest Gemini model served in the API. It’s optimized for high-volume, high-frequency tasks at scale, is more cost-efficient to serve and features our breakthrough long context window.While it’s a lighter weight model than 1.5 Pro, it’s highly capable of multimodal reasoning across vast amounts of information and delivers impressive quality for its size.The new Gemini 1.5 Flash model is optimized for speed and efficiency, is highly capable of multimodal reasoning and features our breakthrough long context window.1.5 Flash excels at summarization, chat applications, image and video captioning, data extraction from long documents and tables, and more. This is because it’s been trained by 1.5 Pro through a process called “distillation,” where the most essential knowledge and skills from a larger model are transferred to a smaller, more efficient model.Read more about 1.5 Flash in our updated Gemini 1.5 technical report, on the Gemini technology page, and learn about 1.5 Flash’s availability and pricing.Over the last few months, we’ve significantly improved 1.5 Pro, our best model for general performance across a wide range of tasks.Beyond extending its context window to 2 million tokens, we’ve enhanced its code generation, logical reasoning and planning, multi-turn conversation, and audio and image understanding through data and algorithmic advances. We see strong improvements on public and internal benchmarks for each of these tasks.1.5 Pro can now follow increasingly complex and nuanced instructions, including ones that specify product-level behavior involving role, format and style. We’ve improved control over the model’s responses for specific use cases, like crafting the persona and response style of a chat agent or automating workflows through multiple function calls. And we’ve enabled users to steer model behavior by setting system instructions.We added audio understanding in the Gemini API and Google AI Studio, so 1.5 Pro can now reason across image and audio for videos uploaded in Google AI Studio. And we’re now integrating 1.5 Pro into Google products, including Gemini Advanced and in Workspace apps.Read more about 1.5 Pro in our updated Gemini 1.5 technical report and on the Gemini technology page.Gemini Nano is expanding beyond text-only inputs to include images as well. Starting with Pixel, applications using Gemini Nano with Multimodality will be able to understand the world the way people do — not just through text, but also through sight, sound and spoken language.Read more about Gemini 1.0 Nano on Android.Today, we’re also sharing a series of updates to Gemma, our family of open models built from the same research and technology used to create the Gemini models.We’re announcing Gemma 2, our next generation of open models for responsible AI innovation. Gemma 2 has a new architecture designed for breakthrough performance and efficiency, and will be available in new sizes.The Gemma family is also expanding with PaliGemma, our first vision-language model inspired by PaLI-3. And we’ve upgraded our Responsible Generative AI Toolkit with LLM Comparator for evaluating the quality of model responses.Read more on the Developer blog.As part of Google DeepMind’s mission to build AI responsibly to benefit humanity, we’ve always wanted to develop universal AI agents that can be helpful in everyday life. That’s why today, we’re sharing our progress in building the future of AI assistants with Project Astra (advanced seeing and talking responsive agent).To be truly useful, an agent needs to understand and respond to the complex and dynamic world just like people do — and take in and remember what it sees and hears to understand context and take action. It also needs to be proactive, teachable and personal, so users can talk to it naturally and without lag or delay.While we’ve made incredible progress developing AI systems that can understand multimodal information, getting response time down to something conversational is a difficult engineering challenge. Over the past few years, we’ve been working to improve how our models perceive, reason and converse to make the pace and quality of interaction feel more natural.Building on Gemini, we’ve developed prototype agents that can process information faster by continuously encoding video frames, combining the video and speech input into a timeline of events, and caching this information for efficient recall.By leveraging our leading speech models, we also enhanced how they sound, giving the agents a wider range of intonations. These agents can better understand the context they’re being used in, and respond quickly, in conversation.With technology like this, it’s easy to envision a future where people could have an expert AI assistant by their side, through a phone or glasses. And some of these capabilities are coming to Google products, like the Gemini app and web experience, later this year.We’ve made incredible progress so far with our family of Gemini models, and we’re always striving to advance the state-of-the-art even further. By investing in a relentless production line of innovation, we’re able to explore new ideas at the frontier, while also unlocking the possibility of new and exciting Gemini use cases.Learn more about Gemini and its capabilities. Your information will be used in accordance with Google’s privacy policy.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>      Done. Just one step more.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://yanpengt06.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://yanpengt06.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-07-10T10:54:17+00:00</updated><id>https://yanpengt06.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">Vibe Coding</title><link href="https://yanpengt06.github.io/blog/2025/AI_coding/" rel="alternate" type="text/html" title="Vibe Coding"/><published>2025-07-09T18:17:43+00:00</published><updated>2025-07-09T18:17:43+00:00</updated><id>https://yanpengt06.github.io/blog/2025/AI_coding</id><content type="html" xml:base="https://yanpengt06.github.io/blog/2025/AI_coding/"><![CDATA[<blockquote> <p>笔者的🧑‍💻编码方式从纯人工coding转变到现在的vibe coding，使用gpt4o mac端进行辅助编码，绝大多数code都由GPT4o生成。最近发现github copilot不仅有chat模式，还有agent模式，感觉AI coding的潜力还没有完全被发挥出来，故阅读相关博客，来探索一下AI coding生产力最大化的范式当下应该是怎么样的</p> </blockquote> <h2 id="ai-coding-是一个放大器">AI Coding 是一个放大器</h2> <p>当你能用精准的提示词拆解需求，当对系统设计有敏锐直觉，AI会把你的能力指数级放大；反之，模糊的指令只会让AI输出漏洞百出的代码。 AI是一个放大器。如果你的能力很差，收益自然微不足道；如果你的能力系数为负，收益甚至可能是负值。</p> <p>AI对语言和风格很敏感，常常反映出提示者的偏好与审美。顶尖工程师品味高，对什么可行、什么不可行，有着更为敏锐的品味和直觉。 所以，要秉持工匠精神。就算AI帮忙，也要对产出成果感到骄傲，这点在AI系统的最终产出中得到了清晰的印证。</p> <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>两种截然不同的prompt实现一个速率限制器
+
+Prompt1: Write a Python rate limiter that limits users to 10 requests per minute.
+
+Prompt2:
+Implement a token bucket rate limiter in Python with the following requirements:
+
+- 10 requests per minute per user (identified by `user_id` string)
+- Thread-safe for concurrent access
+- Automatic cleanup of expired entries
+- Return tuple of (allowed: bool, retry_after_seconds: int)
+
+Consider:
+- Should tokens refill gradually or all at once?
+- What happens when the system clock changes?
+- How to prevent memory leaks from inactive users?
+
+Prefer simple, readable implementation over premature optimization. Use stdlib only (no Redis/external deps).
+
+</code></pre></div></div> <p>还有个卓有成效的技巧，叫「元提示」（metaprompting）:先给模型一个简单任务，让它帮忙挖出需要权衡的因素和潜在的边界情况，整理成技术规格，再让另一个AI智能体去执行。</p> <h2 id="帮助人类的也能帮助ai">帮助人类的也能帮助AI</h2> <p>AI偏好的高质量团队和代码库有这些特征：</p> <ul> <li>良好的测试覆盖率、有意义的断言；</li> <li>自动化代码检查、格式化和测试，在代码合并前执行；</li> <li>持续集成与持续部署 (CI/CD)；</li> <li>完善的变更文档、技术规格（tech specs）、架构决策记录（ADRs），以及清晰的提交信息；</li> <li>代码风格统一，通过格式化工具强制执行；</li> <li>简单、简洁、结构清晰的代码；</li> <li>功能定义清晰，拆分为多个小型的故事卡。</li> </ul> <p>当今的AI能利用所有这些要素，自动搞定任务。</p> <h2 id="编辑器中的工具和技巧">编辑器中的工具和技巧</h2> <ul> <li>不计成本地使用最好的AI Model</li> <li>提供精准的Context：用Agentic编码工具，推荐Claude Code, Cursor, Windsurf, Cline; 只@相关的代码文件和文档；将编码规范写入RULES.md文件，为不同的智能体工具（如 .cursorrules, .windsurfrules, claude.md, agents.md 等）创建指向此文件的符号链接（Symlink）。</li> <li>实现一个新功能或者重构时：<strong>拆解问题</strong>。指令越具体，AI的表现就越好。AI还能帮忙把提示写清楚，让指令变得更清晰、更具体。推理能力强的模型尤其擅长此道；<strong>化整为零，逐一击破</strong>。在开发大型功能时，应将其拆分为多个小任务，然后逐个交给AI处理，并在完成每个任务后进行一次代码提交（commit）。如果你遵循用户故事（story）的工作流，包含任务清单的故事卡描述对AI就是一份极佳的指南。<strong>提供技术规格与相关文档</strong>。不要在缺少产品宏观背景的情况下直接要求AI写代码。应向其提供技术规格，以及所用程序库的官方文档。对于大多数工具而言，直接粘贴文档链接通常是有效的。有些程序库甚至会提供一个llms.txt文件，专供编码智能体使用。<strong>好的模式是把开发分成「计划」和「执行」</strong>。一些先进的编程智能体已经内置了类似的流程。<strong>审慎对待AI的建议</strong>。不要将其建议视为理所当然，让它解释选择的理由，提出替代方案，分析方案的优劣。</li> <li>调试时：<strong>用AI调试自己的bug</strong>。当AI生成的代码出错时，务必将最相关的错误上下文完整粘贴给它，以帮助其定位问题。（如使用专门的XML标签，如<code class="language-plaintext highlighter-rouge">&lt;error&gt;</code>，将错误日志或输出内容包裹起来）。<strong>提供尝试和观察</strong>。向模型说明已经尝试过的调试步骤和额外的观察发现，这能帮它形成正确的假设并排除错误的推断。提供<strong>丰富的上下文</strong>至关重要。</li> </ul> <h2 id="编辑器之外的实用技巧">编辑器之外的实用技巧</h2> <p>AI是一位拥有海量知识、具有高效研究能力，超级有耐心的老师。</p> <p>应积极用AI学习新知，揭开陌生代码或技术栈的神秘面纱。坚持不懈地深入挖掘，探寻最佳实践。同时，务必让AI引用高质量的信源，确保学到的知识准确无误。</p> <hr/> <p><strong>📚 创建海量详尽文档</strong></p> <p>把代码库信息提供给AI，就能轻松地创建大量细致的文档。比如：</p> <ul> <li>阐释功能，创建项目知识库；</li> <li>汇总当前所有的监控指标；</li> <li>智能识别缺失的测试用例。</li> </ul> <p>这样做的好处显而易见——如今，生成文档的成本已极其低廉，而这些文档又能反过来极大地提升AI以及人类成员的工作效率。</p> <hr/> <p><strong>🤝 解决日常协作小摩擦</strong></p> <p>AI能极大降低团队日常工作中遇到的各种小阻力：</p> <ul> <li>利用AI创建模拟服务器（mockserver），用于协调前后端团队的工作，消除开发过程中的阻塞。前后端对好接口契约就能开工；</li> <li>通过向AI提供shell历史会话记录，为基础设施部署、常见故障排查等场景创建运行手册（runbook）和指南；</li> <li>将现有的运行手册和指南提供给AI，让它将其转化为能自动执行常见任务的脚本。</li> </ul> <hr/> <p><strong>🧑‍💻 代码评审 (Code Review)</strong></p> <ul> <li>为合并请求（Pull Request）创建一个模板，将每个功能的代码变更提交给AI，让它解释变更和部署步骤；</li> <li>为了缩短首次代码评审的响应时间，可以引入代码评审机器人来完成初步检查。但切勿完全取代人工评审！</li> <li>作为评审者，当你遇到不理解的代码变更时，可以先让AI解释。向它寻求澄清，在获得了必要的背景信息后，再向开发者提问。</li> </ul> <hr/> <p><strong>🔍 调试和监控线上应用</strong></p> <ul> <li>用AI的深度研究能力，寻找罕见错误的解决方案。调试线上问题时，可遵循与在编辑器中调试时相同的建议：提供尽可能丰富的上下文；</li> <li>AI非常擅长为可观测性工具编写查询语句和告警规则，还能写Python代码分析和处理数据。</li> </ul> <hr/> <p><strong>⚙️ 性能优化</strong></p> <ul> <li>用AI优化数据库和调校配置。此时，务必向其提供有关基础设施和硬件的上下文信息，并分享查询计划（query plan）。</li> </ul> <blockquote> <p>Summary 如今，大模型比过去聪明得多。它们能更智能地推理，工具使用也更出色。人们编写软件的方式正发生着巨变，因此有必要重新审视一些曾被奉为金科玉律的传统智慧。</p> <ol> <li>别急着搞复杂抽象：首先，花费过多时间去寻找和构建精巧的抽象，其价值正在降低。</li> <li>DRY（不要重复自己）原则对确保代码模式的一致性固然有用，但为了应对需求变更而维护，本身就需要付出成本。</li> <li>返工的成本极低。小范围的代码编写不如整体代码结构和组织重要。可以快速构建多个原型测试想法。</li> <li>氛围编程(Vibe Coding)很适合原型开发，但事后要将原型抛弃并重新进行规范的开发。</li> <li>验证并修正一个既有方案，通常比从零开始创造它要容易得多。这极大地降低了人们尝试新事物的阻力。[真的，这使得现在nlp实验idea验证的速度飞升，AI会完成绝大部分code，nlper们只需要小范围修正迅速迭代]</li> <li>测试是绝对不容妥协的。AI能够快速、批量地生成测试用例，这让任何不写测试的借口都荡然无存。</li> <li>但请记住，必须时刻严格审查其生成的内容！</li> </ol> </blockquote> <h2 id="how-nicholas-use-llm">How-Nicholas-use-LLM</h2> <ul> <li>直接制作整个web App<a href="https://chatgpt.com/share/39e7db3d-acee-409a-9629-87a2a6a9db22">[Link]</a></li> <li>新技术的导师<a href="https://chatgpt.com/share/40dcc017-9cc6-4a99-8eac-959a171fbb2f">[link]</a></li> <li>开始一个新的工作：直接生成了一个代码骨架，无论他是否能直接运行，比平地起高楼好多了）</li> <li>简化代码</li> <li>干杂活：做一些boring task</li> <li>作为一个万能的参考手册</li> <li>生成式搜索，有些内容用搜索引擎如同大海捞针</li> <li>解决一次性问题</li> <li>做各种知识性的问答</li> <li>解决已经有解决方案的任务</li> <li>修复bug</li> </ul> <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Pre-2022 when I ran into an error message from some popular tool or library I would follow the following protocol:
+
+Copy error message
+Paste into Google
+Click top stackoverflow link
+Verify the question is what I want to ask; if not go to 2
+Apply top solution to task
+If it does not work, go to 2, change search terms, pray, etc
+
+What does this look like now, in 2024?
+
+Copy error message
+Ask LLM "How do I fix this error? [error]"
+Apply step-by-step solution as suggested by LLM
+If it does not work, say "that didn't work"
+
+</code></pre></div></div> <p><strong>Evaluate what LLMs <em>can</em> do, not what they can’t</strong> LLM数不清句子里有几个词，strawberry里有几个r，写一首每一个单词都以a开头的诗，乘以两个数字。。。确实有缺陷，但是人根本不会用LLM去完成这些任务，关注他们能解决的问题，意义会大得多</p> <h2 id="reference">Reference</h2> <p>这篇blog主要参考了以下前两篇blog，另外三篇也是很好的to-read</p> <div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@misc</span><span class="p">{</span><span class="nl">carlini2024ai</span><span class="p">,</span>
+  <span class="na">author</span>    <span class="p">=</span> <span class="s">{Nicholas Carlini}</span><span class="p">,</span>
+  <span class="na">title</span>     <span class="p">=</span> <span class="s">{How I Use AI}</span><span class="p">,</span>
+  <span class="na">year</span>      <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">url</span>       <span class="p">=</span> <span class="s">{https://nicholas.carlini.com/writing/2024/how-i-use-ai.html}</span><span class="p">,</span>
+  <span class="na">note</span>      <span class="p">=</span> <span class="s">{Accessed: \today}</span>
+<span class="p">}</span>
+
+<span class="nc">@misc</span><span class="p">{</span><span class="nl">nilenso2025coding</span><span class="p">,</span>
+  <span class="na">author</span>    <span class="p">=</span> <span class="s">{Nilenso Blog}</span><span class="p">,</span>
+  <span class="na">title</span>     <span class="p">=</span> <span class="s">{AI-Assisted Coding}</span><span class="p">,</span>
+  <span class="na">year</span>      <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">url</span>       <span class="p">=</span> <span class="s">{https://blog.nilenso.com/blog/2025/05/29/ai-assisted-coding/}</span><span class="p">,</span>
+  <span class="na">note</span>      <span class="p">=</span> <span class="s">{Accessed: \today}</span>
+<span class="p">}</span>
+
+<span class="nc">@misc</span><span class="p">{</span><span class="nl">anthropic2025claude</span><span class="p">,</span>
+  <span class="na">author</span>    <span class="p">=</span> <span class="s">{Anthropic Engineering}</span><span class="p">,</span>
+  <span class="na">title</span>     <span class="p">=</span> <span class="s">{Claude Code Best Practices}</span><span class="p">,</span>
+  <span class="na">year</span>      <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">url</span>       <span class="p">=</span> <span class="s">{https://www.anthropic.com/engineering/claude-code-best-practices}</span><span class="p">,</span>
+  <span class="na">note</span>      <span class="p">=</span> <span class="s">{Accessed: \today}</span>
+<span class="p">}</span>
+
+<span class="nc">@misc</span><span class="p">{</span><span class="nl">willison2025llms</span><span class="p">,</span>
+  <span class="na">author</span>    <span class="p">=</span> <span class="s">{Simon Willison}</span><span class="p">,</span>
+  <span class="na">title</span>     <span class="p">=</span> <span class="s">{Using LLMs for Code}</span><span class="p">,</span>
+  <span class="na">year</span>      <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">url</span>       <span class="p">=</span> <span class="s">{https://simonwillison.net/2025/Mar/11/using-llms-for-code/}</span><span class="p">,</span>
+  <span class="na">note</span>      <span class="p">=</span> <span class="s">{Accessed: \today}</span>
+<span class="p">}</span>
+
+<span class="nc">@misc</span><span class="p">{</span><span class="nl">crawshaw2025programming</span><span class="p">,</span>
+  <span class="na">author</span>    <span class="p">=</span> <span class="s">{Russ Cox / Chris Crawshaw}</span><span class="p">,</span>
+  <span class="na">title</span>     <span class="p">=</span> <span class="s">{Programming with LLMs}</span><span class="p">,</span>
+  <span class="na">year</span>      <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">url</span>       <span class="p">=</span> <span class="s">{https://crawshaw.io/blog/programming-with-llms}</span><span class="p">,</span>
+  <span class="na">note</span>      <span class="p">=</span> <span class="s">{Accessed: \today}</span>
+<span class="p">}</span>
+</code></pre></div></div>]]></content><author><name></name></author><category term="sample-posts"/><category term="Technique"/><summary type="html"><![CDATA[Some blogs about AI Coding.]]></summary></entry><entry><title type="html">Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra</title><link href="https://yanpengt06.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/" rel="alternate" type="text/html" title="Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra"/><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>https://yanpengt06.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra</id><content type="html" xml:base="https://yanpengt06.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/"><![CDATA[<p>May 14, 2024 We’re introducing a series of updates across the Gemini family of models, including the new 1.5 Flash, our lightweight model for speed and efficiency, and Project Astra, our vision for the future of AI assistants. In December, we launched our first natively multimodal model Gemini 1.0 in three sizes: Ultra, Pro and Nano. Just a few months later we released 1.5 Pro, with enhanced performance and a breakthrough long context window of 1 million tokens.Developers and enterprise customers have been putting 1.5 Pro to use in incredible ways and finding its long context window, multimodal reasoning capabilities and impressive overall performance incredibly useful.We know from user feedback that some applications need lower latency and a lower cost to serve. This inspired us to keep innovating, so today, we’re introducing Gemini 1.5 Flash: a model that’s lighter-weight than 1.5 Pro, and designed to be fast and efficient to serve at scale.Both 1.5 Pro and 1.5 Flash are available in public preview with a 1 million token context window in Google AI Studio and Vertex AI. And now, 1.5 Pro is also available with a 2 million token context window via waitlist to developers using the API and to Google Cloud customers.We’re also introducing updates across the Gemini family of models, announcing our next generation of open models, Gemma 2, and sharing progress on the future of AI assistants, with Project Astra.Context lengths of leading foundation models compared with Gemini 1.5’s 2 million token capability1.5 Flash is the newest addition to the Gemini model family and the fastest Gemini model served in the API. It’s optimized for high-volume, high-frequency tasks at scale, is more cost-efficient to serve and features our breakthrough long context window.While it’s a lighter weight model than 1.5 Pro, it’s highly capable of multimodal reasoning across vast amounts of information and delivers impressive quality for its size.The new Gemini 1.5 Flash model is optimized for speed and efficiency, is highly capable of multimodal reasoning and features our breakthrough long context window.1.5 Flash excels at summarization, chat applications, image and video captioning, data extraction from long documents and tables, and more. This is because it’s been trained by 1.5 Pro through a process called “distillation,” where the most essential knowledge and skills from a larger model are transferred to a smaller, more efficient model.Read more about 1.5 Flash in our updated Gemini 1.5 technical report, on the Gemini technology page, and learn about 1.5 Flash’s availability and pricing.Over the last few months, we’ve significantly improved 1.5 Pro, our best model for general performance across a wide range of tasks.Beyond extending its context window to 2 million tokens, we’ve enhanced its code generation, logical reasoning and planning, multi-turn conversation, and audio and image understanding through data and algorithmic advances. We see strong improvements on public and internal benchmarks for each of these tasks.1.5 Pro can now follow increasingly complex and nuanced instructions, including ones that specify product-level behavior involving role, format and style. We’ve improved control over the model’s responses for specific use cases, like crafting the persona and response style of a chat agent or automating workflows through multiple function calls. And we’ve enabled users to steer model behavior by setting system instructions.We added audio understanding in the Gemini API and Google AI Studio, so 1.5 Pro can now reason across image and audio for videos uploaded in Google AI Studio. And we’re now integrating 1.5 Pro into Google products, including Gemini Advanced and in Workspace apps.Read more about 1.5 Pro in our updated Gemini 1.5 technical report and on the Gemini technology page.Gemini Nano is expanding beyond text-only inputs to include images as well. Starting with Pixel, applications using Gemini Nano with Multimodality will be able to understand the world the way people do — not just through text, but also through sight, sound and spoken language.Read more about Gemini 1.0 Nano on Android.Today, we’re also sharing a series of updates to Gemma, our family of open models built from the same research and technology used to create the Gemini models.We’re announcing Gemma 2, our next generation of open models for responsible AI innovation. Gemma 2 has a new architecture designed for breakthrough performance and efficiency, and will be available in new sizes.The Gemma family is also expanding with PaliGemma, our first vision-language model inspired by PaLI-3. And we’ve upgraded our Responsible Generative AI Toolkit with LLM Comparator for evaluating the quality of model responses.Read more on the Developer blog.As part of Google DeepMind’s mission to build AI responsibly to benefit humanity, we’ve always wanted to develop universal AI agents that can be helpful in everyday life. That’s why today, we’re sharing our progress in building the future of AI assistants with Project Astra (advanced seeing and talking responsive agent).To be truly useful, an agent needs to understand and respond to the complex and dynamic world just like people do — and take in and remember what it sees and hears to understand context and take action. It also needs to be proactive, teachable and personal, so users can talk to it naturally and without lag or delay.While we’ve made incredible progress developing AI systems that can understand multimodal information, getting response time down to something conversational is a difficult engineering challenge. Over the past few years, we’ve been working to improve how our models perceive, reason and converse to make the pace and quality of interaction feel more natural.Building on Gemini, we’ve developed prototype agents that can process information faster by continuously encoding video frames, combining the video and speech input into a timeline of events, and caching this information for efficient recall.By leveraging our leading speech models, we also enhanced how they sound, giving the agents a wider range of intonations. These agents can better understand the context they’re being used in, and respond quickly, in conversation.With technology like this, it’s easy to envision a future where people could have an expert AI assistant by their side, through a phone or glasses. And some of these capabilities are coming to Google products, like the Gemini app and web experience, later this year.We’ve made incredible progress so far with our family of Gemini models, and we’re always striving to advance the state-of-the-art even further. By investing in a relentless production line of innovation, we’re able to explore new ideas at the frontier, while also unlocking the possibility of new and exciting Gemini use cases.Learn more about Gemini and its capabilities. Your information will be used in accordance with Google’s privacy policy.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>      Done. Just one step more.
     
       Check your inbox to confirm your subscription.
     You are already subscribed to our newsletter.
@@ -89,660 +83,4 @@
     
   Let’s stay in touch. Get the latest news from Google in your inbox.
           Follow Us
-</code></pre></div></div>]]></content><author><name></name></author><summary type="html"><![CDATA[We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.]]></summary></entry><entry><title type="html">a post with tabs</title><link href="https://yanpengt06.github.io/blog/2024/tabs/" rel="alternate" type="text/html" title="a post with tabs"/><published>2024-05-01T00:32:13+00:00</published><updated>2024-05-01T00:32:13+00:00</updated><id>https://yanpengt06.github.io/blog/2024/tabs</id><content type="html" xml:base="https://yanpengt06.github.io/blog/2024/tabs/"><![CDATA[<p>This is how a post with <a href="https://github.com/Ovski4/jekyll-tabs">tabs</a> looks like. Note that the tabs could be used for different purposes, not only for code.</p> <h2 id="first-tabs">First tabs</h2> <p>To add tabs, use the following syntax:</p> <div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">tabs</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="cp">%}</span>
-
-<span class="cp">{%</span><span class="w"> </span><span class="nt">tab</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="nv">tab-name-1</span><span class="w"> </span><span class="cp">%}</span>
-
-Content 1
-
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
-
-<span class="cp">{%</span><span class="w"> </span><span class="nt">tab</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="nv">tab-name-2</span><span class="w"> </span><span class="cp">%}</span>
-
-Content 2
-
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
-
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtabs</span><span class="w"> </span><span class="cp">%}</span>
-</code></pre></div></div> <p>With this you can generate visualizations like:</p> <ul id="log" class="tab" data-tab="6a9397cf-d16f-47e9-967c-99af3d2b3713" data-name="log"> <li class="active" id="log-php"> <a href="#">php </a> </li> <li id="log-js"> <a href="#">js </a> </li> <li id="log-ruby"> <a href="#">ruby </a> </li> </ul> <ul class="tab-content" id="6a9397cf-d16f-47e9-967c-99af3d2b3713" data-name="log"> <li class="active"> <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
-</code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">hello</span><span class="dl">"</span><span class="p">);</span>
-</code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">pputs</span> <span class="dl">'</span><span class="s1">hello</span><span class="dl">'</span>
-</code></pre></div></div> </li> </ul> <h2 id="another-example">Another example</h2> <ul id="data-struct" class="tab" data-tab="f888295c-8cc8-4c0b-a460-d7d29e3442d2" data-name="data-struct"> <li class="active" id="data-struct-yaml"> <a href="#">yaml </a> </li> <li id="data-struct-json"> <a href="#">json </a> </li> </ul> <ul class="tab-content" id="f888295c-8cc8-4c0b-a460-d7d29e3442d2" data-name="data-struct"> <li class="active"> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
-  <span class="pi">-</span> <span class="s2">"</span><span class="s">whatsup"</span>
-  <span class="pi">-</span> <span class="s2">"</span><span class="s">hi"</span>
-</code></pre></div></div> </li> <li> <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
-  </span><span class="nl">"hello"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"whatsup"</span><span class="p">,</span><span class="w"> </span><span class="s2">"hi"</span><span class="p">]</span><span class="w">
-</span><span class="p">}</span><span class="w">
-</span></code></pre></div></div> </li> </ul> <h2 id="tabs-for-something-else">Tabs for something else</h2> <ul id="something-else" class="tab" data-tab="6e1090f4-de7d-434c-9119-8f03e6e0d54c" data-name="something-else"> <li class="active" id="something-else-text"> <a href="#">text </a> </li> <li id="something-else-quote"> <a href="#">quote </a> </li> <li id="something-else-list"> <a href="#">list </a> </li> </ul> <ul class="tab-content" id="6e1090f4-de7d-434c-9119-8f03e6e0d54c" data-name="something-else"> <li class="active"> <p>Regular text</p> </li> <li> <blockquote> <p>A quote</p> </blockquote> </li> <li> <p>Hipster list</p> <ul> <li>brunch</li> <li>fixie</li> <li>raybans</li> <li>messenger bag</li> </ul> </li> </ul>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included tabs in a post could look like]]></summary></entry><entry><title type="html">a post with typograms</title><link href="https://yanpengt06.github.io/blog/2024/typograms/" rel="alternate" type="text/html" title="a post with typograms"/><published>2024-04-29T23:36:10+00:00</published><updated>2024-04-29T23:36:10+00:00</updated><id>https://yanpengt06.github.io/blog/2024/typograms</id><content type="html" xml:base="https://yanpengt06.github.io/blog/2024/typograms/"><![CDATA[<p>This is an example post with some <a href="https://github.com/google/typograms/">typograms</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
-</span><span class="sb">+----+
-|    |---&gt; My first diagram!
-+----+</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-typograms">+----+
-|    |---&gt; My first diagram!
-+----+
-</code></pre> <p>Another example:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
-</span><span class="sb">.------------------------.
-|.----------------------.|
-||"https://example.com" ||
-|'----------------------'|
-| ______________________ |
-||                      ||
-||   Welcome!           ||
-||                      ||
-||                      ||
-||  .----------------.  ||
-||  | username       |  ||
-||  '----------------'  ||
-||  .----------------.  ||
-||  |"*******"       |  ||
-||  '----------------'  ||
-||                      ||
-||  .----------------.  ||
-||  |   "Sign-up"    |  ||
-||  '----------------'  ||
-||                      ||
-|+----------------------+|
-.------------------------.</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>which generates:</p> <pre><code class="language-typograms">.------------------------.
-|.----------------------.|
-||"https://example.com" ||
-|'----------------------'|
-| ______________________ |
-||                      ||
-||   Welcome!           ||
-||                      ||
-||                      ||
-||  .----------------.  ||
-||  | username       |  ||
-||  '----------------'  ||
-||  .----------------.  ||
-||  |"*******"       |  ||
-||  '----------------'  ||
-||                      ||
-||  .----------------.  ||
-||  |   "Sign-up"    |  ||
-||  '----------------'  ||
-||                      ||
-|+----------------------+|
-.------------------------.
-</code></pre> <p>For more examples, check out the <a href="https://google.github.io/typograms/#examples">typograms documentation</a>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="diagrams"/><summary type="html"><![CDATA[this is what included typograms code could look like]]></summary></entry><entry><title type="html">a post that can be cited</title><link href="https://yanpengt06.github.io/blog/2024/post-citation/" rel="alternate" type="text/html" title="a post that can be cited"/><published>2024-04-28T15:06:00+00:00</published><updated>2024-04-28T15:06:00+00:00</updated><id>https://yanpengt06.github.io/blog/2024/post-citation</id><content type="html" xml:base="https://yanpengt06.github.io/blog/2024/post-citation/"><![CDATA[<p>This is an example post that can be cited. The content of the post ends here, while the citation information is automatically provided below. The only thing needed is for you to set the <code class="language-plaintext highlighter-rouge">citation</code> key in the front matter to <code class="language-plaintext highlighter-rouge">true</code>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="citation"/><summary type="html"><![CDATA[this is what a post that can be cited looks like]]></summary></entry><entry><title type="html">a post with pseudo code</title><link href="https://yanpengt06.github.io/blog/2024/pseudocode/" rel="alternate" type="text/html" title="a post with pseudo code"/><published>2024-04-15T00:01:00+00:00</published><updated>2024-04-15T00:01:00+00:00</updated><id>https://yanpengt06.github.io/blog/2024/pseudocode</id><content type="html" xml:base="https://yanpengt06.github.io/blog/2024/pseudocode/"><![CDATA[<p>This is an example post with some pseudo code rendered by <a href="https://github.com/SaswatPadhi/pseudocode.js">pseudocode</a>. The example presented here is the same as the one in the <a href="https://saswat.padhi.me/pseudocode.js/">pseudocode.js</a> documentation, with only one simple but important change: everytime you would use <code class="language-plaintext highlighter-rouge">$</code>, you should use <code class="language-plaintext highlighter-rouge">$$</code> instead. Also, note that the <code class="language-plaintext highlighter-rouge">pseudocode</code> key in the front matter is set to <code class="language-plaintext highlighter-rouge">true</code> to enable the rendering of pseudo code. As an example, using this code:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">pseudocode
-</span><span class="sb">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
-\begin{algorithm}
-\caption{Quicksort}
-\begin{algorithmic}
-\PROCEDURE{Quicksort}{$$A, p, r$$}
-    \IF{$$p &lt; r$$}
-        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
-        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
-        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
-    \ENDIF
-\ENDPROCEDURE
-\PROCEDURE{Partition}{$$A, p, r$$}
-    \STATE $$x = A[r]$$
-    \STATE $$i = p - 1$$
-    \FOR{$$j = p$$ \TO $$r - 1$$}
-        \IF{$$A[j] &lt; x$$}
-            \STATE $$i = i + 1$$
-            \STATE exchange
-            $$A[i]$$ with $$A[j]$$
-        \ENDIF
-        \STATE exchange $$A[i]$$ with $$A[r]$$
-    \ENDFOR
-\ENDPROCEDURE
-\end{algorithmic}
-\end{algorithm}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Generates:</p> <pre><code class="language-pseudocode">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
-\begin{algorithm}
-\caption{Quicksort}
-\begin{algorithmic}
-\PROCEDURE{Quicksort}{$$A, p, r$$}
-    \IF{$$p &lt; r$$}
-        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
-        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
-        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
-    \ENDIF
-\ENDPROCEDURE
-\PROCEDURE{Partition}{$$A, p, r$$}
-    \STATE $$x = A[r]$$
-    \STATE $$i = p - 1$$
-    \FOR{$$j = p$$ \TO $$r - 1$$}
-        \IF{$$A[j] &lt; x$$}
-            \STATE $$i = i + 1$$
-            \STATE exchange
-            $$A[i]$$ with $$A[j]$$
-        \ENDIF
-        \STATE exchange $$A[i]$$ with $$A[r]$$
-    \ENDFOR
-\ENDPROCEDURE
-\end{algorithmic}
-\end{algorithm}
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included pseudo code could look like]]></summary></entry><entry><title type="html">a post with code diff</title><link href="https://yanpengt06.github.io/blog/2024/code-diff/" rel="alternate" type="text/html" title="a post with code diff"/><published>2024-01-27T19:22:00+00:00</published><updated>2024-01-27T19:22:00+00:00</updated><id>https://yanpengt06.github.io/blog/2024/code-diff</id><content type="html" xml:base="https://yanpengt06.github.io/blog/2024/code-diff/"><![CDATA[<p>You can display diff code by using the regular markdown syntax:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff
-</span><span class="gh">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
-</span><span class="gd">--- a/sample.js
-</span><span class="gi">+++ b/sample.js
-</span><span class="p">@@ -1 +1 @@</span>
-<span class="gd">-console.log("Hello World!")
-</span><span class="gi">+console.log("Hello from Diff2Html!")</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
-</span><span class="gd">--- a/sample.js
-</span><span class="gi">+++ b/sample.js
-</span><span class="p">@@ -1 +1 @@</span>
-<span class="gd">-console.log("Hello World!")
-</span><span class="gi">+console.log("Hello from Diff2Html!")
-</span></code></pre></div></div> <p>But this is difficult to read, specially if you have a large diff. You can use <a href="https://diff2html.xyz/">diff2html</a> to display a more readable version of the diff. For this, just use <code class="language-plaintext highlighter-rouge">diff2html</code> instead of <code class="language-plaintext highlighter-rouge">diff</code> for the code block language:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff2html
-</span><span class="sb">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
---- a/sample.js
-+++ b/sample.js
-@@ -1 +1 @@
--console.log("Hello World!")
-+console.log("Hello from Diff2Html!")</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>If we use a longer example, for example <a href="https://github.com/rtfpessoa/diff2html/commit/c2c253d3e3f8b8b267f551e659f72b44ca2ac927">this commit from diff2html</a>, it will generate the following output:</p> <pre><code class="language-diff2html">From 2aaae31cc2a37bfff83430c2c914b140bee59b6a Mon Sep 17 00:00:00 2001
-From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
-Date: Sun, 9 Oct 2016 16:41:54 +0100
-Subject: [PATCH 1/2] Initial template override support
-
----
- scripts/hulk.js                    |  4 ++--
- src/diff2html.js                   |  3 +--
- src/file-list-printer.js           | 11 ++++++++---
- src/hoganjs-utils.js               | 29 +++++++++++++++++------------
- src/html-printer.js                |  6 ++++++
- src/line-by-line-printer.js        |  6 +++++-
- src/side-by-side-printer.js        |  6 +++++-
- test/file-list-printer-tests.js    |  2 +-
- test/hogan-cache-tests.js          | 18 +++++++++++++++---
- test/line-by-line-tests.js         |  3 +--
- test/side-by-side-printer-tests.js |  3 +--
- 11 files changed, 62 insertions(+), 29 deletions(-)
-
-diff --git a/scripts/hulk.js b/scripts/hulk.js
-index 5a793c18..a4b1a4d5 100755
---- a/scripts/hulk.js
-+++ b/scripts/hulk.js
-@@ -173,11 +173,11 @@ function namespace(name) {
- // write a template foreach file that matches template extension
- templates = extractFiles(options.argv.remain)
-   .map(function(file) {
--    var openedFile = fs.readFileSync(file, 'utf-8');
-+    var openedFile = fs.readFileSync(file, 'utf-8').trim();
-     var name;
-     if (!openedFile) return;
-     name = namespace(path.basename(file).replace(/\..*$/, ''));
--    openedFile = removeByteOrderMark(openedFile.trim());
-+    openedFile = removeByteOrderMark(openedFile);
-     openedFile = wrap(file, name, openedFile);
-     if (!options.outputdir) return openedFile;
-     fs.writeFileSync(path.join(options.outputdir, name + '.js')
-diff --git a/src/diff2html.js b/src/diff2html.js
-index 21b0119e..64e138f5 100644
---- a/src/diff2html.js
-+++ b/src/diff2html.js
-@@ -7,7 +7,6 @@
-
- (function() {
-   var diffParser = require('./diff-parser.js').DiffParser;
--  var fileLister = require('./file-list-printer.js').FileListPrinter;
-   var htmlPrinter = require('./html-printer.js').HtmlPrinter;
-
-   function Diff2Html() {
-@@ -43,7 +42,7 @@
-
-     var fileList = '';
-     if (configOrEmpty.showFiles === true) {
--      fileList = fileLister.generateFileList(diffJson, configOrEmpty);
-+      fileList = htmlPrinter.generateFileListSummary(diffJson, configOrEmpty);
-     }
-
-     var diffOutput = '';
-diff --git a/src/file-list-printer.js b/src/file-list-printer.js
-index e408d9b2..1e0a2c61 100644
---- a/src/file-list-printer.js
-+++ b/src/file-list-printer.js
-@@ -8,11 +8,16 @@
- (function() {
-   var printerUtils = require('./printer-utils.js').PrinterUtils;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var baseTemplatesPath = 'file-summary';
-   var iconsBaseTemplatesPath = 'icon';
-
--  function FileListPrinter() {
-+  function FileListPrinter(config) {
-+    this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   FileListPrinter.prototype.generateFileList = function(diffFiles) {
-@@ -38,5 +43,5 @@
-     });
-   };
-
--  module.exports.FileListPrinter = new FileListPrinter();
-+  module.exports.FileListPrinter = FileListPrinter;
- })();
-diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
-index 9949e5fa..0dda08d7 100644
---- a/src/hoganjs-utils.js
-+++ b/src/hoganjs-utils.js
-@@ -8,18 +8,19 @@
- (function() {
-   var fs = require('fs');
-   var path = require('path');
--
-   var hogan = require('hogan.js');
-
-   var hoganTemplates = require('./templates/diff2html-templates.js');
-
--  var templatesPath = path.resolve(__dirname, 'templates');
-+  var extraTemplates;
-
--  function HoganJsUtils() {
-+  function HoganJsUtils(configuration) {
-+    this.config = configuration || {};
-+    extraTemplates = this.config.templates || {};
-   }
-
--  HoganJsUtils.prototype.render = function(namespace, view, params, configuration) {
--    var template = this.template(namespace, view, configuration);
-+  HoganJsUtils.prototype.render = function(namespace, view, params) {
-+    var template = this.template(namespace, view);
-     if (template) {
-       return template.render(params);
-     }
-@@ -27,17 +28,16 @@
-     return null;
-   };
-
--  HoganJsUtils.prototype.template = function(namespace, view, configuration) {
--    var config = configuration || {};
-+  HoganJsUtils.prototype.template = function(namespace, view) {
-     var templateKey = this._templateKey(namespace, view);
-
--    return this._getTemplate(templateKey, config);
-+    return this._getTemplate(templateKey);
-   };
-
--  HoganJsUtils.prototype._getTemplate = function(templateKey, config) {
-+  HoganJsUtils.prototype._getTemplate = function(templateKey) {
-     var template;
-
--    if (!config.noCache) {
-+    if (!this.config.noCache) {
-       template = this._readFromCache(templateKey);
-     }
-
-@@ -53,6 +53,7 @@
-
-     try {
-       if (fs.readFileSync) {
-+        var templatesPath = path.resolve(__dirname, 'templates');
-         var templatePath = path.join(templatesPath, templateKey);
-         var templateContent = fs.readFileSync(templatePath + '.mustache', 'utf8');
-         template = hogan.compile(templateContent);
-@@ -66,12 +67,16 @@
-   };
-
-   HoganJsUtils.prototype._readFromCache = function(templateKey) {
--    return hoganTemplates[templateKey];
-+    return extraTemplates[templateKey] || hoganTemplates[templateKey];
-   };
-
-   HoganJsUtils.prototype._templateKey = function(namespace, view) {
-     return namespace + '-' + view;
-   };
-
--  module.exports.HoganJsUtils = new HoganJsUtils();
-+  HoganJsUtils.prototype.compile = function(templateStr) {
-+    return hogan.compile(templateStr);
-+  };
-+
-+  module.exports.HoganJsUtils = HoganJsUtils;
- })();
-diff --git a/src/html-printer.js b/src/html-printer.js
-index 585d5b66..13f83047 100644
---- a/src/html-printer.js
-+++ b/src/html-printer.js
-@@ -8,6 +8,7 @@
- (function() {
-   var LineByLinePrinter = require('./line-by-line-printer.js').LineByLinePrinter;
-   var SideBySidePrinter = require('./side-by-side-printer.js').SideBySidePrinter;
-+  var FileListPrinter = require('./file-list-printer.js').FileListPrinter;
-
-   function HtmlPrinter() {
-   }
-@@ -22,5 +23,10 @@
-     return sideBySidePrinter.generateSideBySideJsonHtml(diffFiles);
-   };
-
-+  HtmlPrinter.prototype.generateFileListSummary = function(diffJson, config) {
-+    var fileListPrinter = new FileListPrinter(config);
-+    return fileListPrinter.generateFileList(diffJson);
-+  };
-+
-   module.exports.HtmlPrinter = new HtmlPrinter();
- })();
-diff --git a/src/line-by-line-printer.js b/src/line-by-line-printer.js
-index b07eb53c..d230bedd 100644
---- a/src/line-by-line-printer.js
-+++ b/src/line-by-line-printer.js
-@@ -11,7 +11,8 @@
-   var utils = require('./utils.js').Utils;
-   var Rematch = require('./rematch.js').Rematch;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var genericTemplatesPath = 'generic';
-   var baseTemplatesPath = 'line-by-line';
-   var iconsBaseTemplatesPath = 'icon';
-@@ -19,6 +20,9 @@
-
-   function LineByLinePrinter(config) {
-     this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   LineByLinePrinter.prototype.makeFileDiffHtml = function(file, diffs) {
-diff --git a/src/side-by-side-printer.js b/src/side-by-side-printer.js
-index bbf1dc8d..5e3033b3 100644
---- a/src/side-by-side-printer.js
-+++ b/src/side-by-side-printer.js
-@@ -11,7 +11,8 @@
-   var utils = require('./utils.js').Utils;
-   var Rematch = require('./rematch.js').Rematch;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var genericTemplatesPath = 'generic';
-   var baseTemplatesPath = 'side-by-side';
-   var iconsBaseTemplatesPath = 'icon';
-@@ -26,6 +27,9 @@
-
-   function SideBySidePrinter(config) {
-     this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   SideBySidePrinter.prototype.makeDiffHtml = function(file, diffs) {
-diff --git a/test/file-list-printer-tests.js b/test/file-list-printer-tests.js
-index a502a46f..60ea3208 100644
---- a/test/file-list-printer-tests.js
-+++ b/test/file-list-printer-tests.js
-@@ -1,6 +1,6 @@
- var assert = require('assert');
-
--var fileListPrinter = require('../src/file-list-printer.js').FileListPrinter;
-+var fileListPrinter = new (require('../src/file-list-printer.js').FileListPrinter)();
-
- describe('FileListPrinter', function() {
-   describe('generateFileList', function() {
-diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
-index 190bf6f8..3bb754ac 100644
---- a/test/hogan-cache-tests.js
-+++ b/test/hogan-cache-tests.js
-@@ -1,6 +1,6 @@
- var assert = require('assert');
-
--var HoganJsUtils = require('../src/hoganjs-utils.js').HoganJsUtils;
-+var HoganJsUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)();
- var diffParser = require('../src/diff-parser.js').DiffParser;
-
- describe('HoganJsUtils', function() {
-@@ -21,16 +21,28 @@ describe('HoganJsUtils', function() {
-       });
-       assert.equal(emptyDiffHtml, result);
-     });
-+
-     it('should render view without cache', function() {
-       var result = HoganJsUtils.render('generic', 'empty-diff', {
-         contentClass: 'd2h-code-line',
-         diffParser: diffParser
-       }, {noCache: true});
--      assert.equal(emptyDiffHtml + '\n', result);
-+      assert.equal(emptyDiffHtml, result);
-     });
-+
-     it('should return null if template is missing', function() {
--      var result = HoganJsUtils.render('generic', 'missing-template', {}, {noCache: true});
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)({noCache: true});
-+      var result = hoganUtils.render('generic', 'missing-template', {});
-       assert.equal(null, result);
-     });
-+
-+    it('should allow templates to be overridden', function() {
-+      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-+
-+      var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-   });
- });
-diff --git a/test/line-by-line-tests.js b/test/line-by-line-tests.js
-index 1cd92073..8869b3df 100644
---- a/test/line-by-line-tests.js
-+++ b/test/line-by-line-tests.js
-@@ -14,7 +14,7 @@ describe('LineByLinePrinter', function() {
-         '            File without changes\n' +
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
--        '&lt;/tr&gt;\n';
-+        '&lt;/tr&gt;';
-
-       assert.equal(expected, fileHtml);
-     });
-@@ -422,7 +422,6 @@ describe('LineByLinePrinter', function() {
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
-         '&lt;/tr&gt;\n' +
--        '\n' +
-         '                &lt;/tbody&gt;\n' +
-         '            &lt;/table&gt;\n' +
-         '        &lt;/div&gt;\n' +
-diff --git a/test/side-by-side-printer-tests.js b/test/side-by-side-printer-tests.js
-index 76625f8e..771daaa5 100644
---- a/test/side-by-side-printer-tests.js
-+++ b/test/side-by-side-printer-tests.js
-@@ -14,7 +14,7 @@ describe('SideBySidePrinter', function() {
-         '            File without changes\n' +
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
--        '&lt;/tr&gt;\n';
-+        '&lt;/tr&gt;';
-
-       assert.equal(expectedRight, fileHtml.right);
-       assert.equal(expectedLeft, fileHtml.left);
-@@ -324,7 +324,6 @@ describe('SideBySidePrinter', function() {
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
-         '&lt;/tr&gt;\n' +
--        '\n' +
-         '                    &lt;/tbody&gt;\n' +
-         '                &lt;/table&gt;\n' +
-         '            &lt;/div&gt;\n' +
-
-From f3cadb96677d0eb82fc2752dc3ffbf35ca9b5bdb Mon Sep 17 00:00:00 2001
-From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
-Date: Sat, 15 Oct 2016 13:21:22 +0100
-Subject: [PATCH 2/2] Allow uncompiled templates
-
----
- README.md                 |  3 +++
- src/hoganjs-utils.js      |  7 +++++++
- test/hogan-cache-tests.js | 24 +++++++++++++++++++++++-
- 3 files changed, 33 insertions(+), 1 deletion(-)
-
-diff --git a/README.md b/README.md
-index 132c8a28..46909f25 100644
---- a/README.md
-+++ b/README.md
-@@ -98,6 +98,9 @@ The HTML output accepts a Javascript object with configuration. Possible options
-   - `synchronisedScroll`: scroll both panes in side-by-side mode: `true` or `false`, default is `false`
-   - `matchWordsThreshold`: similarity threshold for word matching, default is 0.25
-   - `matchingMaxComparisons`: perform at most this much comparisons for line matching a block of changes, default is `2500`
-+  - `templates`: object with previously compiled templates to replace parts of the html
-+  - `rawTemplates`: object with raw not compiled templates to replace parts of the html
-+  &gt; For more information regarding the possible templates look into [src/templates](https://github.com/rtfpessoa/diff2html/tree/master/src/templates)
-
- ## Diff2HtmlUI Helper
-
-diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
-index 0dda08d7..b2e9c275 100644
---- a/src/hoganjs-utils.js
-+++ b/src/hoganjs-utils.js
-@@ -17,6 +17,13 @@
-   function HoganJsUtils(configuration) {
-     this.config = configuration || {};
-     extraTemplates = this.config.templates || {};
-+
-+    var rawTemplates = this.config.rawTemplates || {};
-+    for (var templateName in rawTemplates) {
-+      if (rawTemplates.hasOwnProperty(templateName)) {
-+        if (!extraTemplates[templateName]) extraTemplates[templateName] = this.compile(rawTemplates[templateName]);
-+      }
-+    }
-   }
-
-   HoganJsUtils.prototype.render = function(namespace, view, params) {
-diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
-index 3bb754ac..a34839c0 100644
---- a/test/hogan-cache-tests.js
-+++ b/test/hogan-cache-tests.js
-@@ -36,7 +36,7 @@ describe('HoganJsUtils', function() {
-       assert.equal(null, result);
-     });
-
--    it('should allow templates to be overridden', function() {
-+    it('should allow templates to be overridden with compiled templates', function() {
-       var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-
-       var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
-@@ -44,5 +44,27 @@ describe('HoganJsUtils', function() {
-       var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-       assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-     });
-+
-+    it('should allow templates to be overridden with uncompiled templates', function() {
-+      var emptyDiffTemplate = '&lt;p&gt;&lt;/p&gt;';
-+
-+      var config = {rawTemplates: {'generic-empty-diff': emptyDiffTemplate}};
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-+
-+    it('should allow templates to be overridden giving priority to compiled templates', function() {
-+      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-+      var emptyDiffTemplateUncompiled = '&lt;p&gt;Not used!&lt;/p&gt;';
-+
-+      var config = {
-+        templates: {'generic-empty-diff': emptyDiffTemplate},
-+        rawTemplates: {'generic-empty-diff': emptyDiffTemplateUncompiled}
-+      };
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-   });
- });
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is how you can display code diffs]]></summary></entry><entry><title type="html">a post with advanced image components</title><link href="https://yanpengt06.github.io/blog/2024/advanced-images/" rel="alternate" type="text/html" title="a post with advanced image components"/><published>2024-01-27T11:46:00+00:00</published><updated>2024-01-27T11:46:00+00:00</updated><id>https://yanpengt06.github.io/blog/2024/advanced-images</id><content type="html" xml:base="https://yanpengt06.github.io/blog/2024/advanced-images/"><![CDATA[<p>This is an example post with advanced image components.</p> <h2 id="image-slider">Image Slider</h2> <p>This is a simple image slider. It uses the <a href="https://swiperjs.com/">Swiper</a> library. Check the <a href="https://swiperjs.com/demos">examples page</a> for more information of what you can achieve with it.</p> <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true"> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/9-480.webp 480w,/assets/img/9-800.webp 800w,/assets/img/9-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/9.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/7-480.webp 480w,/assets/img/7-800.webp 800w,/assets/img/7-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/7.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/8-480.webp 480w,/assets/img/8-800.webp 800w,/assets/img/8-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/8.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/10-480.webp 480w,/assets/img/10-800.webp 800w,/assets/img/10-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/10.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/12-480.webp 480w,/assets/img/12-800.webp 800w,/assets/img/12-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/12.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> </swiper-container> <h2 id="image-comparison-slider">Image Comparison Slider</h2> <p>This is a simple image comparison slider. It uses the <a href="https://img-comparison-slider.sneas.io/">img-comparison-slider</a> library. Check the <a href="https://img-comparison-slider.sneas.io/examples.html">examples page</a> for more information of what you can achieve with it.</p> <img-comparison-slider> <figure slot="first"> <picture> <source class="responsive-img-srcset" srcset="/assets/img/prof_pic-480.webp 480w,/assets/img/prof_pic-800.webp 800w,/assets/img/prof_pic-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/prof_pic.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> <figure slot="second"> <picture> <source class="responsive-img-srcset" srcset="/assets/img/prof_pic_color-480.webp 480w,/assets/img/prof_pic_color-800.webp 800w,/assets/img/prof_pic_color-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/prof_pic_color.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </img-comparison-slider>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="images"/><summary type="html"><![CDATA[this is what advanced image components could look like]]></summary></entry><entry><title type="html">a post with vega lite</title><link href="https://yanpengt06.github.io/blog/2024/vega-lite/" rel="alternate" type="text/html" title="a post with vega lite"/><published>2024-01-27T00:20:00+00:00</published><updated>2024-01-27T00:20:00+00:00</updated><id>https://yanpengt06.github.io/blog/2024/vega-lite</id><content type="html" xml:base="https://yanpengt06.github.io/blog/2024/vega-lite/"><![CDATA[<p>This is an example post with some <a href="https://vega.github.io/vega-lite/">vega lite</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">vega_lite
-</span><span class="sb">{
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A dot plot showing each movie in the database, and the difference from the average movie rating. The display is sorted by year to visualize everything in sequential order. The graph is for all Movies before 2019.",
-  "data": {
-    "url": "https://raw.githubusercontent.com/vega/vega/main/docs/data/movies.json"
-  },
-  "transform": [
-    {"filter": "datum['IMDB Rating'] != null"},
-    {"filter": {"timeUnit": "year", "field": "Release Date", "range": [null, 2019]}},
-    {
-      "joinaggregate": [{
-        "op": "mean",
-        "field": "IMDB Rating",
-        "as": "AverageRating"
-      }]
-    },
-    {
-      "calculate": "datum['IMDB Rating'] - datum.AverageRating",
-      "as": "RatingDelta"
-    }
-  ],
-  "mark": "point",
-  "encoding": {
-    "x": {
-      "field": "Release Date",
-      "type": "temporal"
-    },
-    "y": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "title": "Rating Delta"
-    },
-    "color": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "scale": {"domainMid": 0},
-      "title": "Rating Delta"
-    }
-  }
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-vega_lite">{
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A dot plot showing each movie in the database, and the difference from the average movie rating. The display is sorted by year to visualize everything in sequential order. The graph is for all Movies before 2019.",
-  "data": {
-    "url": "https://raw.githubusercontent.com/vega/vega/main/docs/data/movies.json"
-  },
-  "transform": [
-    {"filter": "datum['IMDB Rating'] != null"},
-    {"filter": {"timeUnit": "year", "field": "Release Date", "range": [null, 2019]}},
-    {
-      "joinaggregate": [{
-        "op": "mean",
-        "field": "IMDB Rating",
-        "as": "AverageRating"
-      }]
-    },
-    {
-      "calculate": "datum['IMDB Rating'] - datum.AverageRating",
-      "as": "RatingDelta"
-    }
-  ],
-  "mark": "point",
-  "encoding": {
-    "x": {
-      "field": "Release Date",
-      "type": "temporal"
-    },
-    "y": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "title": "Rating Delta"
-    },
-    "color": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "scale": {"domainMid": 0},
-      "title": "Rating Delta"
-    }
-  }
-}
-</code></pre> <p>This plot supports both light and dark themes.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[this is what included vega lite code could look like]]></summary></entry></feed>
+</code></pre></div></div>]]></content><author><name></name></author><summary type="html"><![CDATA[We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.]]></summary></entry><entry><title type="html">情感分析综述：方法、应用与未来</title><link href="https://yanpengt06.github.io/blog/2022/A-Survey-on-Sentiment-Analysis/" rel="alternate" type="text/html" title="情感分析综述：方法、应用与未来"/><published>2022-08-05T21:40:43+00:00</published><updated>2022-08-05T21:40:43+00:00</updated><id>https://yanpengt06.github.io/blog/2022/A-Survey-on-Sentiment-Analysis</id><content type="html" xml:base="https://yanpengt06.github.io/blog/2022/A-Survey-on-Sentiment-Analysis/"><![CDATA[<hr/> <h2 id="情感分析的尺度">情感分析的尺度</h2> <p><img src="images/A-Survey-on-Sentiment-Analysis.assets/image-20220805165433457.png" alt="image-20220805165433457"/></p> <p>情感分析(Sentiment Analysis, SA)，在NLP领域特指文本情感分析，即分析文本所蕴含说话人想要表达的情感。尺度由小至大依次是方面（Aspect，翻译可能不当，下文仍采用英文）级、短语级、句子级以及文档级的情感分析，以下分类阐述。</p> <h3 id="文档级sa">文档级SA</h3> <p>为整篇文档分配单一情感极性，在该尺度上进行分析通常较少。跨领域、跨语言是在该尺度上开展的重要任务，特定领域的SA已经取得了较高的准确率，但是特征向量也会因为领域之间的差异性而难以迁移。</p> <h3 id="句子级sa">句子级SA</h3> <p>可聚合从而决定文档的情感极性。在先前工作中，句子级SA被用来寻找主观句；在较为复杂的任务，例如分析有歧义的语句以及条件句，语句级别的SA也是必不可少的。</p> <h3 id="短语级sa">短语级SA</h3> <p>每一个短语可能包含多个aspect或者一个aspect，从而蕴含着相应的情感极性。一个比较有趣的是用来表达情感的短语，具有一定的群体特征（性别、年龄、种族），也十分值得挖掘。</p> <h3 id="方面aspect级sa">方面(Aspect)级SA</h3> <p>类似地，Aspect的情感极性可以聚集，从而决定一个句子的情感极性。举个例子：这个相机价格有点高，但是拍出来的照片质量很好！这个主观句包含一个对象的两个方面（Aspect），一个描述方面是相机的价格，贬义；另一个是相机的拍照质量，褒义，从一些介词副词可以分析出大体上语句仍是褒义的。</p> <hr/> <h2 id="情感分析的workflow">情感分析的Workflow</h2> <p><img src="images/A-Survey-on-Sentiment-Analysis.assets/image-20220805165257329.png" alt="image-20220805165257329"/></p> <h3 id="数据收集与特征选择">数据收集与特征选择</h3> <ol> <li><strong>数据收集</strong> ​互联网各类应用兴起后，数据可以说是海量的，来源广泛、良莠不齐。主要来源包括但不限于：网页，社交媒体，新闻及评论，电商网站，论坛，博客……</li> <li><strong>特征选择</strong> 对于分类任务，特征的选择至关重要。一些可以参考的特征：Uni-gram, Bi-gram, …由于主观语句的特殊性，还可能包含标点信息以及Emoji表情信息，俚语信息等。</li> <li><strong>特征抽取</strong> 与特征选择概念上边界模糊，经常抽取的特征包括不限于：词频（TF-IDF），POS（Parts of Speech, 词性）标记，否定词（否定词对于情感分析至关重要，但有时他们会在停用词表里，或者在情感词典中是中性词而不对句子极性造成影响，实则不然，要视情况处理）以及BOS(Bag of Words)特征。 词向量也是对文本特征的一个抽取，无论是静态词向量又或是动态的词向量（自ELMO起），所蕴含的特征都较为丰富，富含语义信息。</li> <li><strong>特征再选择</strong> 经过抽取后的特征可能是重要的、不重要的、冗余的，因此需要进一步选择（不同于2中的选择，那个更倾向于抽取）。主要方法包括基于词典与统计方法。</li> </ol> <p>a) 情感词典是由WordNet数据库构造而来，其中的每一项都对应一个数值，表示情感极性（例如越高越积极）。主要缺陷就是需要大量人力标注及专家知识，且人对于情感的标注具有主观性。</p> <p>b) 统计方法主要包括四类：</p> <ol> <li>过滤方法：不采用任何机器学习技术，仅依据统计指标，排序靠前的特征则被选择，主要指标有信息增益、互信息等，计算开销小。</li> <li>Wrapper（包装？）方法：基于机器学习算法的输出，计算开销较大，可以确定最优特征子集，主要基于朴素贝叶斯、SVM等机器学习算法</li> <li>嵌入方法：将特征选择过程包含在模型算法的执行过程之中，主要基于一些决策树算法，个人理解是通过剪枝从而完成特征选择，实现特征向量嵌入到一个低维子空间，因此叫嵌入方法？</li> <li>混合方法：结合上述多种方法。</li> </ol> <hr/> <h2 id="情感分析的主要任务及必要性">情感分析的主要任务及必要性</h2> <p><img src="images/A-Survey-on-Sentiment-Analysis.assets/image-20220805165209423.png" alt="image-20220805165209423"/></p> <h3 id="主观句识别">主观句识别</h3> <p>常被认为是SA的第一阶段任务，从文本中抽取出带有主观情感的语句。</p> <h3 id="情感分类">情感分类</h3> <p>是情感分析的一个主要任务，包括情感极性的分类（积极，消极，中性等）以及跨语言、跨领域情感分类等子任务。词的情感具有二义性是主要困难之一，即情感也由上下文决定。”这个相机的价格好高“与”这个相机的像素好高“中的”高“具有情感的二义性。值得一提的是，情感计算(Affective Computing)与情感分析也常作为其他系统的一个子系统使用，具有重要价值。</p> <h3 id="垃圾观点检测">垃圾观点检测</h3> <p>许多主观评论可能由机器生成，例如评论水军，这类评论被称为垃圾评论，若不剔除会对情感分析的最终结果有较大干扰。机器学习算法是主流方法，常用方法还有：引入商品打分信息，评论用户的IP、打分偏好等信息，以及一些常识知识等其他信息。</p> <h3 id="隐式情感分析">隐式情感分析</h3> <p>反讽、幽默常被称作隐式情感，这些模糊、隐晦的表达使得情感分析任务变得更加困难，是情感分析的一个具有挑战性的子任务。经典的方法有引入emoji，标点符号等信息，辅助判断。一个讽刺的例句：</p> <blockquote> <p>“<strong><em>Brilliant, I am fired</em></strong>!”</p> </blockquote> <p>Brilliant作为积极词汇在讽刺语句中起到了加强消极极性的作用。</p> <h3 id="aspect抽取">Aspect抽取</h3> <p>方面级的SA主要由aspect抽取，极性分类，极性聚集三个步骤组成。</p> <p>aspect抽取的主要方法包括采用预定义集合，基于频率，基于语法，监督和无监督机器学习方法。以上方法各有优劣且互补。</p> <h3 id="必要性">必要性</h3> <p>情感分析因其应用广泛而具有充分的研究必要性，也是近年来的一个热门研究领域。其常见的应用有：</p> <ol> <li> <p>经济</p> <ul> <li> <p>商品评论分析，客户满意度分析从而促进商品不断迭代</p> </li> <li> <p>对用户的喜好建模，也可以被推荐系统所用，构建更加智能的推荐系统</p> </li> <li>产品公关，通过分析关于品牌的讨论、舆情，制定相应的策略。</li> <li>股价预测：类似舆情分析，关于股市的舆情，进而预测股价、比特币等价格。</li> <li>涉及的技术包括但不限于细粒度情感分析，aspect-level情感分析，评论摘要的生成。</li> </ul> </li> <li> <p>政治：对于热点事件，分析国民情绪（舆情分析）对于社会治理有重要作用。</p> </li> <li> <p>医疗健康</p> <ul> <li>当下，精神类问题、疾病所占的比重日益增大， 从情感、心理学层面进行预防及治疗可以有效解决精神健康问题。</li> <li>普通医疗方面情感分析可用于监测病人的状况，确定病人的需求。</li> </ul> </li> </ol> <p><img src="images/A-Survey-on-Sentiment-Analysis.assets/image-20220808165241542.png" alt="image-20220808165241542"/></p> <hr/> <h2 id="情感分析的方法概述">情感分析的方法概述</h2> <h3 id="基于词典的方法">基于词典的方法</h3> <p>如前文所述，情感词典是一些token的集合，每一个token被分配了一个数值以表示情感极性。基于词典方法的优势主要有无需训练数据，被视为是一种无监督方法；缺点也因此而产生，词典的构造需要专家知识，耗费人力物力且具有高度的领域相关性，在领域之间的迁移性极差。主要有两种基于词典的方法：基于语料库的方法与基于字典方法，下面分别阐述。</p> <p><strong>a) 基于语料库的方法</strong></p> <p>该方法考虑语义及语法模式来确定一个句子的极性。该方法首先预定义一个情感词术语集合及其极性，然后在巨大语料库中根据语法pattern，来发现情感词及其对应极性。前人的一些工作包括：利用了AND这类关联词所在两侧情感极性往往相同，即”情感一致性“等。</p> <p>基于语料库的方法有两种类型：统计方法和语义方法</p> <ol> <li> <p><strong>统计方法</strong></p> <p>种子观点词与上文所述的共现Pattern可以通过统计方法获得。主要思想是： 经常出现在积极语句中的词语本身有更大的可能是积极的。主要方法是：若某些token经常在相同的语境中出现，他们往往具有相同的极性。一个比较有趣的是，基于共现的统计方法可以用来检测虚假评论：评论的写作风格正常情况下应该是随机的，而不应该具有某种pattern，若不然，则很大可能是同一个用户批量撰写的虚假评论。</p> <p>另一个统计方法是LSA，即隐语义分析。</p> </li> <li> <p><strong>语义方法</strong></p> </li> </ol> <p>​ 通过计算词语之间的相似性完成情感极性的判定：同义词往往有相同极性，反之。</p> <p><strong>b) 基于字典的方法</strong></p> <p>基于字典的方法包含一系列人工收集的预定义观点词集合。主要假设仍是同义词往往具有相同的情感极性，依据此不断扩充这个Opinion Word 的集合。</p> <p>基于词典的两种方法优劣如下图所示：</p> <p><img src="images/A-Survey-on-Sentiment-Analysis.assets/image-20220805212808168.png" alt="image-20220805212808168"/></p> <h3 id="机器学习方法">机器学习方法</h3> <p>本质上也是做特征提取和表示学习，用深度学习的方法做表示学习，具有高准确率、拟合能力强等特点。采用ML方法可以更好地理解上下文信息，完成反讽识别等较为复杂的情感分类任务。下面是一些常用的机器学习方法在SA领域的应用。</p> <ol> <li><strong>Naive Bayes</strong> 概率分类器，基于贝叶斯理论，建立在特征提取之后。</li> <li><strong>SVM</strong> 有监督学习分类器，习得参数只取决于支持向量，十分高效且鲁棒。</li> <li><strong>Logistic Regression(LR)</strong> 运用在分类任务上的概率回归模型，是一种线性分类器。</li> <li><strong>决策树与随机森林</strong> 通过样本基于一些指标（互信息等）学习最优决策属性，也十分高效。</li> <li><strong>最大熵模型</strong> 条件指数分类器，是一种基于特征函数学习权重的分类器，关键在特征函数的构造，往往也需要特征工程。</li> <li><strong>KNN</strong> 基于投票的分类器，在SA领域运用得不广泛，若经过恰当的训练，能取得不错的效果。</li> <li><strong>半监督学习</strong> 训练集包含标注数据与部分未标注数据，在现实中较多场景符合此情景。、</li> </ol> <p>注：上述方法大部分均建立在 特征提取之后，好的特征对分类好坏至关重要，至于如何提取特征，如前所述或是用深度学习方法做表示学习都可能有不错的效果。</p> <h3 id="混合方法">混合方法</h3> <p>顾名思义，结合机器学习与词典的方法，取长补短，往往有不错的效果。</p> <h3 id="深度学习方法">深度学习方法</h3> <p>神经网络大火之后，用深度学习做表示学习在效率、效果上都远高于传统机器学习及基于词典的方法，各类网络架构在SA得到广泛应用，在各大任务上均有所突破，不详述，具体的一些应用如下表所示：</p> <p><img src="images/A-Survey-on-Sentiment-Analysis.assets/dl-in-sa.png" alt="dl-in-sa"/></p> <p><img src="images/A-Survey-on-Sentiment-Analysis.assets/dl-in-sa-2.png" alt="dl-in-sa-2"/></p> <h3 id="其他方法">其他方法</h3> <p><strong>a) Aspect-based Sentiment Analysis(ABSA)</strong></p> <p>ABSA是一个有价值且近年较热门的一个情感分析方向。包括三个阶段：aspect检测，极性分类以及极性聚集。该方法被广泛运用于文本评论分析中，举个例子：</p> <blockquote> <p>The food was awesome, but service was slow.</p> </blockquote> <p>Aspects可以有显式以及隐式两种定义方式，比如预先定义Implicit Aspect A= { taste, food }。那么上述例句的两个aspect分别是taste与service，情感极性分别为：积极，消极。那么简单地情感极性聚集后，该评论为中性评论，当然也可以有其他情感metric的定义方式。</p> <p><strong>b) 迁移学习</strong></p> <p>预训练-精调已成为NLP任务的新范式，迁移学习也能很好地应用在SA领域，经过精调后即可将SA任务从一个特定领域迁移到另一个领域，完成Cross-field。</p> <h3 id="多模态情感分析multimodal-sentiment-analysis">多模态情感分析（Multimodal Sentiment Analysis）</h3> <p>多模态为SA任务增加了一个level。主要模态包括：音频，图像。音调及表情可作为额外的信息辅助SA任务。MSA任务主要关注特征融合过程的设计，包括但不限于：基于注意力的模型，基于张量的模型。</p> <h2 id="评测指标">评测指标</h2> <p>常用的指标包括但不限于：P, R, F~1~ value, Accuracy, Specificity, TF-IDF等</p> <hr/> <h2 id="挑战与未来">挑战与未来</h2> <ul> <li> <p>文体不正式带来的计算开销大</p> </li> <li> <p>需要处理各个语言场景下的情感分析</p> </li> <li>传统方法难以分析隐式情感</li> <li>标注成本高，需要低资源场景下的方法</li> <li>大模型计算开销高</li> <li>Cross-domain问题</li> <li>程度副词的处理（slightly, barely, really）</li> <li>混合语种语句难以处理</li> <li>语言的更迭快（时空上皆有变化）</li> </ul> <p>按照数据是否结构化的分类如下图所示：</p> <p><img src="images/A-Survey-on-Sentiment-Analysis.assets/image-20220808165354647.png" alt="image-20220808165354647"/></p> <h2 id="小结">小结</h2> <p><img src="images/A-Survey-on-Sentiment-Analysis.assets/2021-sa-keywords.png" alt="2021-sa-keywords"/></p> <p><img src="images/A-Survey-on-Sentiment-Analysis.assets/2022sa-wordcloud.png" alt="2022sa-wordcloud"/></p> <p>本文是对综述^[1]^的一个小结，情感分析是NLP一个较为热门的子领域：不完全统计^[2]^，近五年（2018-2022）共收录相关论文297篇，上方两张图也能阐明了近年领域研究的一些热门方向：情感对话，让人机对话更关注人的情绪，具有一定共情能力；多模态情感分析，利用各类模态信息进一步提升情感分析的准确性；反讽、隐喻等隐式情感分析一类较困难的任务；与精神健康、心理疾病检测相关的情感分析这一逐渐重视的研究方向；一些立场检测、辩论相关工作。以及一些重要的研究方法：基于预训练的迁移学习，多任务学习，少样本学习，引入外部知识等。</p> <h2 id="reference">Reference</h2> <p>[1] Wankhade M, Rao A C S, Kulkarni C. <a href="https://link.springer.com/content/pdf/10.1007/s10462-022-10144-1.pdf">A survey on sentiment analysis methods, applications, and challenges[J]. Artificial Intelligence Review</a>, 2022: 1-50.</p> <p>[2] 仅统计NAACL, ACL, EMNLP, COLING近五年主会（长短文）及findings，<a href="https://github.com/yanpengt06/SA-paper-statistics.git">代码</a></p>]]></content><author><name></name></author><category term="sample-posts"/><category term="Survey"/><summary type="html"><![CDATA[A Survey on Sentiment Analysis]]></summary></entry><entry><title type="html">关于大三课程</title><link href="https://yanpengt06.github.io/blog/2022/about-course/" rel="alternate" type="text/html" title="关于大三课程"/><published>2022-06-20T16:20:19+00:00</published><updated>2022-06-20T16:20:19+00:00</updated><id>https://yanpengt06.github.io/blog/2022/about-course</id><content type="html" xml:base="https://yanpengt06.github.io/blog/2022/about-course/"><![CDATA[<h2 id="写在前面">写在前面</h2> <p>挺多学弟学妹咨询专业分流相关问题的，提前了解大三的课程内容也能帮助自己选到一个适合自己的专业方向，上一年自己不适合自己的专业也挺窒息的。HIT的有些课程名真的很迷，和教学内容差异巨大，不能”顾名思义“。为此将我所了解到的一些专业课程（仅罗列各方向专业核心课）主要内容罗列如下，希望对各位有帮助。</p> <h2 id="软件工程">软件工程</h2> <p>软件工程专业每学期有两门专业课，其中选一门作为4.5学分考试课，另一门3学分专业选修，外专业课可以选商务类mooc，大四需要实习至少三个月。</p> <h3 id="大三上">大三上</h3> <ol> <li>软件过程与工具</li> </ol> <p>和名字差不多，从软件需求分析开始讲到系统设计，最后到系统实现，大概就是软件的生命周期和一些迭代方案。内容都相当古老，用的工具也就是所谓的git，starUML画类图。大概五六个实验，然后一个持续检查的大作业：从需求分析开始做一个完整的进销存系统。可以做PC端APP也可以做成web服务，大部分都是做成web服务，这个实际的开发和上课讲的毫无关系，上课不会教开发技术，如果没有web开发（前后端）的基础会比较吃力。理论内容都不难理解，考试闭卷，很偏概念，考的很细，可以背PPT速成，没记住就填不上的那种。</p> <ol> <li>移动互联网技术</li> </ol> <p>移动通信网络+万维网。前一半和计网通信那部分有重叠，后一半主要关注移动端侧web服务的开发，有涉及鸿蒙开发、UI交互、移动端存储等等。这课通信占比较大，讲了很多移动接入技术：WLAN,WPAN,WMAN等等。选这个做考试课实验好像是完整做出来一个移动端的应用就可以，选修交一个报告，参加期末考试就行，选修无实验。这课涉及的内容实在太多，考试也只考一些最基本的概念，选择题和上课小测题<strong>强</strong>相关，大三课基本都是答得差不多就给分，老师给分挺高的。</p> <h3 id="大三下">大三下</h3> <ol> <li>软件架构与中间件</li> </ol> <p>顾名思义，讲软件的一些架构风格和中间件的介绍。从计算层（提高单机和集群的计算性能），数据层（提高数据服务器的性能），表示层（UI）展开。这课介绍的理论技术是比较新的了，负载均衡、分库分表、消息中间件这种都是企业必备。也算是入门性的讲解，实验大多也都是入门体验性质的，没有开发类型的实验。考试一面（一面A4，非一纸）开卷，你打印的东西越多，考试的难度就越低，选择题全是课堂习题，实测两天速成无压力。</p> <ol> <li>数字媒体技术</li> </ol> <p>最最最迷惑的专业，听上去很像做动画，3D渲染，视频特效的吧。都不是，可以理解成正统CV。两个老师上课。前一半内容基本上是传统CV，从信号开始讲起，带点信息论，包括傅里叶变换，图像变换，图像压缩，就这几个名词，足以让PPT看到头皮发麻。后一半内容正统机器学习，包括不限于：PCA，SVM等各种分类器，决策树，SIFT算子，深度学习，深度学习的攻防。如果选机器学习，这课相当于基本上过一半了就不太难。考试也不难，二纸开卷，深度学习部分都很基础，前一半看起来也不太难？我是瞎写的，前一半没怎么看，不确定。选修也需要做两个实验，一个是做图像的DCT等变换，BMP位图格式，第二个是用ResNet（CV深度学习模型）做MNIST数字手写体分类。必修好像还多几个实验。个人感觉这课放软工不太合适，一点也不工程，很科学。</p> <h2 id="自然语言处理">自然语言处理</h2> <p>我选修都是往这方向选修的，也涉及过一些课程。</p> <ol> <li>自然语言处理。两个老师，前一半讲基于统计的自然语言处理，可以理解为深度学习兴起之前，包括不限于：分词，隐马尔可夫模型，最大熵模型。后一半讲基于深度学习的自然语言处理，全是介绍性的，都讲得不深，基本没什么深度学习方法。好像选修考试占比是80，记不太清了。必修实验有一个是按性能相对排名评分的。</li> <li>信息检索。这个好理解，没选修过，略过。</li> </ol> <h2 id="智能信息处理">智能信息处理</h2> <p>这专业大三上学NLP专业课（自然语言处理），大三下学CV专业课</p> <ol> <li>模式识别与深度学习</li> </ol> <p>左老师的课，选的人很多。两个老师，前一半传统模式识别理论，与机器学习关系挺大的，学习一定程度上也是在做模式识别。后半部分是左老师的深度学习。从NN开始讲，然后从CV方向展开，基本能把CV整个发展进程的模型都梳理一遍。讲的内容挺深的，需要一定基础，会涉及很多近年的paper。选修考试占80分，必修的实验是模式识别一个，深度学习六个好像：自己复现MLP,CNN,RNN,GAN等</p> <h2 id="最后">最后</h2> <p>其他方向的课程也都是听说，不大清楚实际内容，建议咨询相关方向的学长学姐。以上内容尽量陈述事实，不包括对任何教师的主观评价。最后祝大家都能选到自己心仪的、适合自己的专业~~</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="MISC"/><summary type="html"><![CDATA[写在前面]]></summary></entry><entry><title type="html">Displaying External Posts on Your al-folio Blog</title><link href="https://yanpengt06.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/" rel="alternate" type="text/html" title="Displaying External Posts on Your al-folio Blog"/><published>2022-04-23T23:20:09+00:00</published><updated>2022-04-23T23:20:09+00:00</updated><id>https://yanpengt06.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog</id><content type="html" xml:base="https://yanpengt06.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/"><![CDATA[<h3>External Posts on Your al-folio Blog</h3> <p>If you prefer publishing blog posts on medium.com or other external sources, starting version v0.5.0, <a href="https://github.com/alshedivat/al-folio">al-folio</a> lets you to display your external posts in the blog feed of your website! 🎉🎉</p> <p>Configuring external sources of super simple. After upgrading to v0.5.0, just add the following section to your _config.yml:</p> <pre>external_sources:<br />  - name: medium.com  # name of the source (arbitrary string)<br />    rss_url: <a href="https://medium.com/@al-folio/feed">https://medium.com/@&lt;your-medium-username&gt;/feed</a></pre> <p>The example above adds your medium.com blog post feed as an external source. But you can add arbitrary RSS feeds as sources.</p> <p>Any questions or suggestions? 👉 Start <a href="https://github.com/alshedivat/al-folio/discussions">a discussion on GitHub</a>!</p> <p><img src="https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=b60a1d241a0a" width="1" height="1" alt=""/></p>]]></content><author><name></name></author></entry></feed>
