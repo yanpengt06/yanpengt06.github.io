@@ -94,10 +94,16 @@ I am **supervised** by Professor [Yanyan Zhao](https://homepage.hit.edu.cn/yanya
 
 ## Internship
 
-1. **iFLYTEK Co., Ltd.** – *Northeast Asia Research Institute*
+1. **China Southern Power Grid Co., Ltd. – Research Institute**  
+   *Assistant Researcher, Standards & Technical Information Center*  
+   *July 2025 – September 2025, Guangzhou*  
+   - Explored full-process construction of `AI4Research` based on LLM Agent.
+   - Applied `Deep Research` and `RAG` techniques for intelligent document summarization and Q&A on the power grid knowledge base.
+
+2. **iFLYTEK Co., Ltd. – Northeast Asia Research Institute**  
    *Assistant Algorithm Engineer, COG1 Department*  
    *July 2022 – December 2022, Harbin*  
-   Focused on multilingual semantic understanding. Responsible for dataset tool development and academic literature review
+   Focused on multilingual semantic understanding. Responsible for dataset tool development and academic literature review.
 
 ## Hobby
 
